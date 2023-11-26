@@ -21,5 +21,5 @@
 - Малхосян Игорь | captain | [Телеграм](https://t.me/iVengo84)
 - Сазонов Артем | mobile | [Телеграм](https://t.me/Drygan) [LinkedIn](https://www.linkedin.com/in/sazonov-artem/)
 - Гущина Анастасия | design | [Телеграм](https://t.me/sowactei)
-- Перелыгин Александр | frontend | [Телеграм](https://t.me/rabbit_666)
-- Игорь Беляков | backend | [Телеграм](https://t.me/igorurr)
+- Игорь Беляков | frontend | [Телеграм](https://t.me/igorurr)
+- Перелыгин Александр | backend | [Телеграм](https://t.me/rabbit_666)
