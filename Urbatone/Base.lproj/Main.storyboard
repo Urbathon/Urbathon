@@ -88,18 +88,38 @@
                                     <color key="baseBackgroundColor" systemColor="systemRedColor"/>
                                 </buttonConfiguration>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="portrait" translatesAutoresizingMaskIntoConstraints="NO" id="BzK-2U-pQO">
+                                <rect key="frame" x="136.66666666666666" y="103" width="119.99999999999997" height="120"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="120" id="0P5-YY-RIZ"/>
+                                    <constraint firstAttribute="width" secondItem="BzK-2U-pQO" secondAttribute="height" multiplier="1:1" id="4UO-KW-byr"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Иванов Иван Иванович" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wlp-H7-mag">
+                                <rect key="frame" x="12" y="231" width="369" height="27.666666666666686"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="DHM-4E-zGL"/>
                         <color key="backgroundColor" name="backgroundColor"/>
                         <constraints>
+                            <constraint firstItem="Wlp-H7-mag" firstAttribute="top" secondItem="BzK-2U-pQO" secondAttribute="bottom" constant="8" symbolic="YES" id="78p-Rt-gkm"/>
                             <constraint firstItem="DHM-4E-zGL" firstAttribute="bottom" secondItem="02r-hq-QN1" secondAttribute="bottom" constant="20" id="BpW-Vj-VZh"/>
+                            <constraint firstItem="DHM-4E-zGL" firstAttribute="trailing" secondItem="Wlp-H7-mag" secondAttribute="trailing" constant="12" id="Lc6-kp-FDu"/>
+                            <constraint firstItem="BzK-2U-pQO" firstAttribute="centerX" secondItem="Slh-Op-5pZ" secondAttribute="centerX" id="LuI-i1-zw1"/>
                             <constraint firstItem="DHM-4E-zGL" firstAttribute="trailing" secondItem="02r-hq-QN1" secondAttribute="trailing" constant="20" id="gbU-Tn-v4i"/>
+                            <constraint firstItem="Wlp-H7-mag" firstAttribute="leading" secondItem="DHM-4E-zGL" secondAttribute="leading" constant="12" id="lHC-N4-zVw"/>
                             <constraint firstItem="02r-hq-QN1" firstAttribute="leading" secondItem="DHM-4E-zGL" secondAttribute="leading" constant="20" id="lTn-di-ts5"/>
+                            <constraint firstItem="BzK-2U-pQO" firstAttribute="top" secondItem="DHM-4E-zGL" secondAttribute="top" id="tyz-Dc-I3R"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="pYT-8l-Euj"/>
                     <connections>
+                        <outlet property="imageView" destination="BzK-2U-pQO" id="ZjD-qQ-9SI"/>
                         <outlet property="singOutButton" destination="02r-hq-QN1" id="eRP-Co-ioy"/>
+                        <outlet property="titleView" destination="Wlp-H7-mag" id="597-1v-BeA"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CsS-MH-ikF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -453,6 +473,7 @@
         <image name="envelope" catalog="system" width="128" height="85"/>
         <image name="house" catalog="system" width="128" height="104"/>
         <image name="person" catalog="system" width="128" height="121"/>
+        <image name="portrait" width="1024" height="1024"/>
         <image name="square.grid.2x2.fill" catalog="system" width="128" height="114"/>
         <namedColor name="Blue">
             <color red="0.16470588235294117" green="0.48627450980392156" blue="0.89803921568627454" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
