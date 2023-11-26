@@ -8,9 +8,14 @@
 ## Запуск приложения
 Установить Cocoapods
 ```
-% sudo gem install cocoapods
+$ sudo gem install cocoapods
 ```
 Установить [Xcode](https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_15/Xcode_15.xip)
+
+Запустить команду в папке проекта
+```
+$ pod install
+```
 
 Выбрать устройство для запуска
 
