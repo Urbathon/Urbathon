@@ -6,15 +6,15 @@
 - Личный кабинет
 
 ## Запуск приложения
-установить Cocoapods
+Установить Cocoapods
 ```
 % sudo gem install cocoapods
 ```
-установить [Xcode](https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_15/Xcode_15.xip)
+Установить [Xcode](https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_15/Xcode_15.xip)
 
 Выбрать устройство для запуска
 
-нажать Command+R
+Нажать Command+R
 
 ## Разработчики
 
